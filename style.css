@@ -1,0 +1,606 @@
+
+*{
+    font-family: "Questrial", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0%;
+    padding: 0%;
+    color: #003c64;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+    background-color: #99d9d9;
+}
+
+.consultorio{
+    width: 100vw;
+}
+
+.logo{
+    width: 13vw;
+    position: relative;
+    right: 35vw;
+    top: 2vh;
+}
+
+.caja-home{
+margin-bottom: 5vh;
+}
+
+.caja-home-izq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.introduccion{
+    text-align: center;
+}
+
+.introduccion h1{
+    font-size: 10vw;
+}
+
+.introduccion p {
+    font-size: 4vw;
+    margin: 2vw;
+}
+
+.introduccion button a{
+    text-decoration: none;
+    font-size: 4vw;
+    font-weight: bolder;
+    color: white;
+    border: 0;
+    border-radius: 1.1vw;
+    background-color: #51b6b6;
+    padding: 2vw 4vw 2vw 4vw;
+}
+
+button, a {
+  outline: none;
+  border: none;
+  margin-top: 1.5vh;
+}
+
+button a:hover{
+    background-color: white;
+    color: #51b6b6;
+    cursor: pointer;
+}
+
+#container {
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+iframe {
+    background-color: white;
+    width: 100%;
+    height: 700px;
+    border: none;
+}
+
+.logo-form{
+    width: 10vw;
+    position: relative;
+    right: 1vw;
+    bottom: 1vw;
+    background:none;
+}
+
+h2{
+    font-size: 6vw;
+    background: none;
+}
+
+.mini-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 4vw;
+    margin-top: 5vw;
+    background-color: white;
+}
+
+footer{
+    background-color: #003c64;
+    padding: 5vw;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    margin-top: 5vh;
+}
+
+footer p{
+    color: white;
+    margin: 2vw;
+    font-size: 2.7vw;
+}
+.segundo-boton{
+        text-decoration: none;
+        font-size: 1.5vw;
+        font-weight: bolder;
+        color: white;
+        border: 0;
+        border-radius: 1.1vw;
+        background-color: #51b6b6;
+        padding: 1vw 4vw 1vw 4vw;
+        cursor: pointer;
+        font-size: 4vw;
+        padding: 2vw 0vw 2vw 0vw;
+        
+    }
+
+   .segundo-boton:hover{
+        background-color: #003c64;
+        color: white;
+    }
+
+@media (min-width: 425px) {
+    *{
+        font-family: "Questrial", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        margin: 0%;
+        padding: 0%;
+        color: #003c64;
+    }
+
+    html {
+    scroll-behavior: smooth;
+    }
+
+    body{
+        background-color: #99d9d9;
+    }
+
+    .consultorio{
+        width: 100vw;
+    }
+
+    .logo{
+        width: 13vw;
+        position: relative;
+        right: 35vw;
+        top: 2vh;
+    }
+
+    .caja-home-izq {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 3vh;
+    }
+
+    .introduccion{
+        text-align: center;
+    }
+
+    .introduccion h1{
+        font-size: 13vw;
+    }
+
+    .introduccion p {
+        font-size: 4vw;
+        margin: 2vw;
+    }
+
+    .introduccion button a{
+        text-decoration: none;
+        font-size: 4vw;
+        font-weight: bolder;
+        color: white;
+        border: 0;
+        border-radius: 1.1vw;
+        background-color: #51b6b6;
+        padding: 2vw 4vw 2vw 4vw;
+    }
+
+    button, a {
+    outline: none;
+    border: none;
+    margin-top: 1.5vh;
+    }
+
+    button a:hover{
+        background-color: white;
+        color: #51b6b6;
+        cursor: pointer;
+    }
+
+    #container {
+        max-width: 900px;
+        margin: auto;
+        background: #fff;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        display: flex;
+        flex-direction: column;
+    }
+
+    iframe {
+        background-color: white;
+        width: 100%;
+        height: 700px;
+        border: none;
+    }
+
+    .logo-form{
+        width: 10vw;
+        position: relative;
+        right: 1vw;
+        bottom: 1vw;
+        background:none;
+    }
+
+    h2{
+        font-size: 6vw;
+        background: none;
+    }
+
+    .mini-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 4vw;
+        margin-top: 5vw;
+        background-color: white;
+    }
+
+    footer{
+        background-color: #003c64;
+        padding: 5vw;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
+
+    footer p{
+        color: white;
+        margin: 2vw;
+        font-size: 2.7vw;
+    }
+
+    .segundo-boton{
+        text-decoration: none;
+        font-size: 1.5vw;
+        font-weight: bolder;
+        color: white;
+        border: 0;
+        border-radius: 1.1vw;
+        background-color: #51b6b6;
+        padding: 1vw 4vw 1vw 4vw;
+        cursor: pointer;
+        font-size: 4vw;
+        padding: 2vw 0vw 2vw 0vw;
+        
+    }
+
+   .segundo-boton:hover{
+        background-color: #003c64;
+        color: white;
+    }
+}
+
+@media (min-width: 992px) {
+    *{
+        font-family: "Questrial", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        margin: 0%;
+        padding: 0%;
+        color: #003c64;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body{
+        background-color: #99d9d9;
+    }
+
+    .consultorio{
+        height: 100vh;
+        width: 50vw;
+    }
+
+    .logo{
+        width: 7vw;
+        height: 7vw;
+        position: relative;
+        right: 15vw;
+    }
+
+    .caja-home{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5vh;
+    }
+
+    .caja-home-izq{
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+
+    .introduccion{
+        text-align: center;
+    }
+
+    .introduccion h1{
+        font-size: 6vw;
+    }
+
+    .introduccion p {
+        font-size: 2vw;
+        margin: 2vw;
+    }
+
+    .introduccion button a{
+        text-decoration: none;
+        font-size: 1.5vw;
+        font-weight: bolder;
+        color: white;
+        border: 0;
+        border-radius: 1.1vw;
+        background-color: #51b6b6;
+        padding: 1vw 4vw 1vw 4vw;
+    }
+
+    button, a {
+    outline: none;
+    border: none;
+    }
+
+    button a:hover{
+        background-color: white;
+        color: #51b6b6;
+        cursor: pointer;
+    }
+
+    #container {
+        max-width: 900px;
+        margin: auto;
+        background: #fff;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        margin-bottom: 5vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    iframe {
+        background-color: white;
+        width: 100%;
+        height: 80vh;
+        border: none;
+    }
+
+    .logo-form{
+        width: 5vw;
+        position: relative;
+        right: 1vw;
+        bottom: 1vw;
+        background:none;
+    }
+
+    h2{
+        font-size: 3vw;
+        background: none;
+    }
+
+    .mini-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 4vw;
+        margin-top: 5vw;
+        background-color: white;
+    }
+
+    footer{
+        background-color: #003c64;
+        padding: 5vw;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    footer p{
+        color: white;
+        margin: 1vw;
+        font-size: 1.1vw;
+    }
+
+    .segundo-boton{
+        text-decoration: none;
+        font-size: 1.5vw;
+        font-weight: bolder;
+        color: white;
+        border: 0;
+        border-radius: 1.1vw;
+        background-color: #51b6b6;
+        padding: 1vw 4vw 1vw 4vw;
+        cursor: pointer;
+        
+    }
+
+   .segundo-boton:hover{
+        background-color: #003c64;
+        color: white;
+    }
+
+    
+}
+
+@media (min-width: 2560px){
+    *{
+        font-family: "Questrial", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        margin: 0%;
+        padding: 0%;
+        color: #003c64;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body{
+        background-color: #99d9d9;
+    }
+
+    .consultorio{
+        height: 100vh;
+        width: 50vw;
+    }
+
+    .logo{
+        width: 7vw;
+        height: 7vw;
+        position: relative;
+        right: 15vw;
+    }
+
+    .caja-home{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5vh;
+    }
+
+    .caja-home-izq{
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+
+    .introduccion{
+        text-align: center;
+    }
+
+    .introduccion h1{
+        font-size: 6vw;
+    }
+
+    .introduccion p {
+        font-size: 2vw;
+        margin: 2vw;
+    }
+
+    .introduccion button a{
+        text-decoration: none;
+        font-size: 1.5vw;
+        font-weight: bolder;
+        color: white;
+        border: 0;
+        border-radius: 1.1vw;
+        background-color: #51b6b6;
+        padding: 1vw 4vw 1vw 4vw;
+    }
+
+    button, a {
+    outline: none;
+    border: none;
+    }
+
+    button a:hover{
+        background-color: white;
+        color: #51b6b6;
+        cursor: pointer;
+    }
+
+    #container {
+        max-width: 900px;
+        margin: auto;
+        background: #fff;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        margin-bottom: 5vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    iframe {
+        background-color: white;
+        width: 100%;
+        height: 40vh;
+        border: none;
+    }
+
+    .logo-form{
+        width: 5vw;
+        position: relative;
+        right: 1vw;
+        bottom: 1vw;
+        background:none;
+    }
+
+    h2{
+        font-size: 3vw;
+        background: none;
+    }
+
+    .mini-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 4vw;
+        margin-top: 5vw;
+        background-color: white;
+    }
+
+    footer{
+        background-color: #003c64;
+        padding: 5vw;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    footer p{
+        color: white;
+        margin: 1vw;
+        font-size: 1.1vw;
+    }
+
+    .segundo-boton{
+        text-decoration: none;
+        font-size: 1.5vw;
+        font-weight: bolder;
+        color: white;
+        border: 0;
+        border-radius: 1.1vw;
+        background-color: #51b6b6;
+        padding: 1vw 4vw 1vw 4vw;
+        cursor: pointer;
+        
+    }
+
+   .segundo-boton:hover{
+        background-color: #003c64;
+        color: white;
+    }
+
+    
+}
